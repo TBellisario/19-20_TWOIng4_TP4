@@ -35,7 +35,7 @@ var movie = [];
     // Insert it in array (normaly with connect the data with the database)
     axios({
       method: 'get',
-      url: 'http://www.omdbapi.com/?t=${name}&apikey=121f7fda',
+      url: 'http://www.omdbapi.com/?t=${name}&apikey=a62757f5',
       responseType: 'json'
   })
   .then(function(response) {
